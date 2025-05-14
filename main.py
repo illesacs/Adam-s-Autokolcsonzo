@@ -7,8 +7,8 @@ def main():
     kolcsonzo.hozzaad_auto(Szemelyauto("AB-AA-123", "Ford Focus", 12000, 4))
     kolcsonzo.hozzaad_auto(Szemelyauto("AB-AB-456", "Suzuki Vitara", 10000, 4))
     kolcsonzo.hozzaad_auto(Szemelyauto("AB-BB-789", "Suzuki Swift", 8000, 4))
-    kolcsonzo.hozzaad_auto(Teherauto("TC-AA-123", "Mercedes Sprinter", 16000, 1500))
-    kolcsonzo.hozzaad_auto(Teherauto("TC-AB-456", "Ford Transit", 16000, 1500))
+    kolcsonzo.hozzaad_auto(Teherauto("TC-AA-123", "Mercedes Sprinter", 20000, 1500))
+    kolcsonzo.hozzaad_auto(Teherauto("TC-AB-456", "Ford Transit", 18000, 1500))
     kolcsonzo.hozzaad_auto(Teherauto("TC-BB-789", "Iveco Daily", 16000, 1500))
 
     kolcsonzo.berel_auto("AAA-111", "2025-05-10")
