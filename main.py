@@ -3,18 +3,14 @@ from kolcsonzo import Autokolcsonzo
 
 def main():
     kolcsonzo = Autokolcsonzo("Adam's Autókölcsönző")
-    kolcsonzo.hozzaad_auto(Szemelyauto("AA-AA-001", "Opel Astra", 9000, 5))
     kolcsonzo.hozzaad_auto(Szemelyauto("AB-AA-123", "Ford Focus", 12000, 4))
     kolcsonzo.hozzaad_auto(Szemelyauto("AB-AB-456", "Suzuki Vitara", 10000, 4))
-    kolcsonzo.hozzaad_auto(Szemelyauto("AB-BB-789", "Suzuki Swift", 8000, 4))
-    kolcsonzo.hozzaad_auto(Teherauto("TC-AA-123", "Mercedes Sprinter", 20000, 1500))
-    kolcsonzo.hozzaad_auto(Teherauto("TC-AB-456", "Ford Transit", 18000, 1500))
-    kolcsonzo.hozzaad_auto(Teherauto("TC-BB-789", "Iveco Daily", 16000, 1500))
+    kolcsonzo.hozzaad_auto(Teherauto("TC-AB-123", "Ford Transit", 18000, 1500))
 
-    kolcsonzo.berel_auto("AAA-111", "2025-05-10")
-    kolcsonzo.berel_auto("BBB-222", "2025-05-11")
-    kolcsonzo.berel_auto("CCC-333", "2025-05-12")
-    kolcsonzo.berel_auto("AAA-111", "2025-05-13")
+    kolcsonzo.berel_auto("AB-AA-123", "2025-05-16")
+    kolcsonzo.berel_auto("TC-AB-123", "2025-05-17")
+    kolcsonzo.berel_auto("AB-AB-456", "2025-05-18")
+    kolcsonzo.berel_auto("TC-AB-123", "2025-05-19")
 
     while True:
         print("\n--- Adam's Autókölcsönző ---")
